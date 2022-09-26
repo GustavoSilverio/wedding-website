@@ -12370,7 +12370,7 @@ hr.divider-light {
 }
 
 .contador {
-  background-color: #39617E;
+  background-color: #1f3c50;
   border-radius: 5px;
   padding: 2rem;
   display: flex;
@@ -12390,9 +12390,9 @@ hr.divider-light {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  background-color: #1E3D53;
+  background-color: #1a2832;
   border-radius: 5px;
-  border: 1px solid #006FC0;
+  border: 1px solid #203646;
   padding: 0.5rem;
   align-items: center;
   flex-direction: row;
@@ -12406,7 +12406,7 @@ hr.divider-light {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  color: #fff;
+  color: #8ad0ff;
   background-color: #1c1c2c;
 }
 
