@@ -72,6 +72,16 @@
   box-sizing: border-box;
 }
 
+#vl a:link,
+#vl a:visited,
+#vl a:active {
+  color: #000 !important;
+}
+
+#vl:hover {
+  color: #4893c5 !important;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -12359,6 +12369,75 @@ hr.divider-light {
   }
 }
 
+.contador {
+  background-color: #39617E;
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.about-couple {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #1E3D53;
+  border-radius: 5px;
+  border: 1px solid #006FC0;
+  padding: 0.5rem;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.coming-soon {
+  padding: 6rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  background-color: #1c1c2c;
+}
+
+
+.countdown h3 {
+  padding: 7px;
+}
+
+.contador h2 {
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .countdown {
+    flex-direction: column;
+  }
+
+  .contador h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  font-size: 2rem;
+}
+
 .footer {
   display: flex;
   height: 8rem;
@@ -12373,14 +12452,19 @@ hr.divider-light {
 }
 
 .gs a:link,
-a:visited,
-a:active {
+.gs a:visited,
+.gs a:active {
   text-decoration: none;
   color: #FF005C;
 }
 
+.timer {
+  background-color: #333;
+  padding: 6rem 0;
+}
+
 .created .gs {
-  transition: .2s;
+  transition: .5s;
   border-radius: 5px;
   padding: 5px;
 }

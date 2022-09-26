@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Wedding - Website</title>
+    <title>Larissa e Arthur</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/coracao.png" />
     <!-- Bootstrap Icons-->
@@ -32,6 +32,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link" href="#about">Os noivos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#timer">Cronômetro</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Padrinhos</a></li>
                     <li class="nav-item"><a class="nav-link" href="#local">Local</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Lista de presentes</a></li>
@@ -46,14 +47,35 @@
     <section class="page-section bg-primary" id="about">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-lg-8 text-center">
-                    <h2 class="text-white mt-0">Algo relacionado aos noivos</h2>
-                    <hr class="divider divider-light" />
-                    <p class="text-white-75 mb-4">A vida é feita de momentos bons e ruins. Aproveitem intensamente <br>
+                <div class="about-couple">
+                    <p class="">A vida é feita de momentos bons e ruins. Aproveitem intensamente <br>
                         os
                         bons e estejam unidos para superar os ruins. Assim se constrói um casamento duradouro e feliz!
                     </p>
-                    <a class="btn btn-light btn-xl" href="#services">Vamos lá !</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Cronometro -->
+    <section id="timer" class="coming-soon">
+        <div class="contador">
+            <h2>Faltam :</h2>
+            <div class="countdown">
+                <div class="container-day">
+                    <h3 class="day"></h3>
+                    <h3>Dias</h3>
+                </div>
+                <div class="container-hour">
+                    <h3 class="hour"></h3>
+                    <h3>Horas</h3>
+                </div>
+                <div class="container-minute">
+                    <h3 class="minute"></h3>
+                    <h3>Minutos</h3>
+                </div>
+                <div class="container-second">
+                    <h3 class="second"></h3>
+                    <h3>Segundos</h3>
                 </div>
             </div>
         </div>
@@ -240,13 +262,15 @@
     <!-- Footer-->
     <footer class="footer">
         <div class="copy">
-            <div>Copyright &copy; 2022 - Luana Miron</div>
+            <div>Copyright &copy; - Luana Miron - All Rights Reserved</div>
         </div>
         <div class="created">
             Designed by <span class="gs"><a href=""><a href="https://github.com/GustavoSilverio" target="_blank">Gustavo
                         Oliveira</a></span>
         </div>
     </footer>
+    <!-- Cronometro-js -->
+    <script src="Js/cronometro.js"></script>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- SimpleLightbox plugin JS-->
