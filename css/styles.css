@@ -12413,10 +12413,14 @@ hr.divider-light {
 
 .countdown h3 {
   padding: 7px;
+  font-family: 'Poppins', sans-serif !important;
+
 }
 
 .contador h2 {
   font-size: 3rem;
+  font-family: 'Poppins', sans-serif !important;
+
 }
 
 @media only screen and (max-width: 600px) {
