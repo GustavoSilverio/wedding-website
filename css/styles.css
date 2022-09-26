@@ -62,8 +62,8 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
+  --bs-body-color: #fff;
+  --bs-body-bg: #0f0f20;
 }
 
 *,
@@ -5089,7 +5089,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-brand:hover,
 .navbar-light .navbar-brand:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: #4893c5 !important;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -5098,7 +5098,7 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  color: rgba(0, 0, 0, 0.7);
+  color: #4893c5 !important;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -5107,12 +5107,11 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: rgba(0, 0, 0, 0.9);
+  color: #4893c5 !important;
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.55);
-  border-color: rgba(0, 0, 0, 0.1);
+  color: #07070e;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -12293,18 +12292,19 @@ hr.divider-light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #0f0f20;
   transition: background-color 0.2s ease;
 }
 
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #212529;
+  color: #fff;
+  transition: color .2s !important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #fff;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
@@ -12328,19 +12328,20 @@ hr.divider-light {
 
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
+    transition: color .2s !important;
   }
 
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #4893c5;
   }
 
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: #fff;
     padding: 0 1rem;
   }
 
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #4893c5;
   }
 
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
@@ -12349,11 +12350,11 @@ hr.divider-light {
 
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #0f0f20;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
-    color: #212529;
+    color: #fff;
   }
 
   #mainNav.navbar-shrink .navbar-brand:hover {
@@ -12361,7 +12362,7 @@ hr.divider-light {
   }
 
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #fff;
   }
 
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
@@ -12446,7 +12447,7 @@ hr.divider-light {
   display: flex;
   height: 8rem;
   width: 100%;
-  background-color: #094b76;
+  background-color: #05050e;
   justify-content: space-around;
   align-items: center;
   color: #fff;
@@ -12474,7 +12475,7 @@ hr.divider-light {
 }
 
 .created .gs:hover {
-  background-color: #fff;
+  border: 1px solid #ff005c;
 }
 
 
