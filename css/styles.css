@@ -12499,8 +12499,8 @@ hr.divider-light {
   height: 10rem;
   width: 12rem;
   border-radius: 5px;
-  box-shadow: 0px 8px 70px #4893c536;
-  transition: .2s;
+  filter: drop-shadow(0px 8px 70px #4893c536);
+    transition: .2s;
 }
 
 .prof-pic:hover {

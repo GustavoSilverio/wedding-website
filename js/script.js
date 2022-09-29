@@ -3,7 +3,7 @@
 // gap é a "distancia" de tempo entre o tempo de agora, e o tempo setado
 
 const countdown = () => {
-    const countDate = new Date("Nov 7, 2022 00:00:00").getTime();
+    const countDate = new Date("Nov 8, 2022 00:00:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
