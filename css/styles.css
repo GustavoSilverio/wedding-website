@@ -12292,6 +12292,7 @@ form button {
 .forms {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: center;
