@@ -12491,6 +12491,18 @@ hr.divider-light {
   display: flex;
 }
 
+.copy a {
+  color: #ff6700;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+  transition: .5s;
+}
+
+.copy a:hover {
+  border: 1px solid #ff6700;
+}
+
 .created {
   color: #fff;
 }
@@ -12500,7 +12512,8 @@ hr.divider-light {
   width: 12rem;
   border-radius: 5px;
   filter: drop-shadow(0px 8px 70px #4893c536);
-    transition: .2s;
+  transition: .2s;
+  cursor: pointer;
 }
 
 .prof-pic:hover {
