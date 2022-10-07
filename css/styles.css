@@ -12261,6 +12261,48 @@ body {
   height: 100%;
 }
 
+.formulario {
+  padding: 6rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1c1c2c;
+}
+
+form input,
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: #1c1c2c;
+  color: #8ad0ff;
+  padding: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+form input::placeholder {
+  color: #8ad0ff;
+}
+
+form button {
+  margin-top: 5px;
+  color: #8ad0ff;
+}
+
+
+.forms {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 10px;
+  padding: 3rem;
+  background-color: #1f3c50;
+  border-radius: 5px;
+  border: 1px solid #26597b;
+  box-shadow: 1px 1px #333;
+}
+
 .page-section {
   padding: 6rem 0;
 }
