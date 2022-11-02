@@ -8800,7 +8800,7 @@ fieldset:disabled .btn {
 
 .bg-dark {
   background-size: cover;
-  background-image: url("../assets/img/foto\ \(2\).jpeg");
+  background-image: url("../assets/img/bannerImg.png");
 }
 
 .bg-black {
@@ -12567,7 +12567,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 20rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgb(255 255 255 / 18%) 0%, rgb(45 93 124 / 80%) 100%), url("../assets/img/foto\ \(2\).jpeg");
+  background: linear-gradient(to bottom, rgb(255 255 255 / 18%) 0%, rgb(45 93 124 / 80%) 100%), url("../assets/img/bannerImg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
